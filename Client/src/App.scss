@@ -1,0 +1,52 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;500;700&display=swap");
+
+body {
+  box-sizing: border-box;
+  background-color: #000000;
+  background-color: #1F0033; 
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%231F0033' cx='50' cy='0' r='50'/%3E%3Cg fill='%2323093a' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23261241' cx='50' cy='100' r='50'/%3E%3Cg fill='%232a1b48' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%232d244e' cx='50' cy='200' r='50'/%3E%3Cg fill='%23312d55' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%2334365c' cx='50' cy='300' r='50'/%3E%3Cg fill='%23383f63' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%233b486a' cx='50' cy='400' r='50'/%3E%3Cg fill='%233f5171' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23435b78' cx='50' cy='500' r='50'/%3E%3Cg fill='%2346647e' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%234a6d85' cx='50' cy='600' r='50'/%3E%3Cg fill='%234d768c' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23517f93' cx='50' cy='700' r='50'/%3E%3Cg fill='%2354889a' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%235891a1' cx='50' cy='800' r='50'/%3E%3Cg fill='%235b9aa7' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%235fa3ae' cx='50' cy='900' r='50'/%3E%3Cg fill='%2362acb5' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2366B5BC' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment:scroll;
+  background-size: contain;
+
+}
+
+#tsparticles {
+  width: 100%;
+}
+
+#tsparticles canvas {
+  width: 100%;
+  height: auto;
+  pointer-events: initial;
+  position: fixed;
+  z-index: -10;
+  background-color: #000000;
+}
+
+* {
+  font-family: "Signika Negative";
+}
+
+body::-webkit-scrollbar {
+  width: 10px; /* Tamaño del scroll en vertical */
+  height: 8px; /* Tamaño del scroll en horizontal */
+  display: fixed; /* Ocultar scroll */
+  background-color: #000000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #54ECC4;
+  border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+body::-webkit-scrollbar-thumb:active {
+  background-color: #000000;
+}

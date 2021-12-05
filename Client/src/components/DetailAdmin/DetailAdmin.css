@@ -1,0 +1,49 @@
+.containerAdmin {
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    min-height: 300px;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.containerData {
+    background-color: black;
+    border: solid 1px white;
+    border-radius: 8px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: start;
+}
+
+.gridAdmin {
+    border-bottom: solid 1px white;
+}
+
+.historyEmpty {
+    margin-top: 50px;
+}
+
+.containerPush {
+    margin-top: 50px;
+}
+
+.btnAdminPush {
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+}
+
+.btnAdminPush:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.btnAdminPush:active{
+    background-color: grey;
+}

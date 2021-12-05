@@ -1,0 +1,28 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    background-color: rgba(116, 14, 14, 0.452);
+    align-items: center;
+    padding: 5rem;
+    border-radius: 10px;
+    border: 5px dotted whitesmoke;
+}
+
+.container{
+    height: 34rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box button{
+    background-color: rgba(255, 0, 0, 0.651);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    outline: none;
+    border: none;
+    margin-top: 0.8rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}

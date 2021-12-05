@@ -1,0 +1,23 @@
+.containerAdmins {
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    background-color: black;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.containerAdmins:hover {
+    background-color: white;
+}
+
+.linkAdmin {
+    text-decoration: none;
+    color: white;
+}
+
+.linkAdmin:hover{
+    color: black;
+}
